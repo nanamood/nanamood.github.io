@@ -1,0 +1,51 @@
+#navbarScroll ul li a:hover{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-info-rgb),var(--bs-text-opacity))!important;
+    text-decoration: none;
+}
+
+.boton{
+    text-decoration: none;
+    color:black;
+
+}
+
+.box{
+    height: 80px;  
+}
+
+.miColor{
+    background-color: #FFC900;
+}
+
+.colorCaja{
+    background-color: #78938A;
+}
+
+.colorCard{
+    background-color: #FAFDD6;
+}
+
+.colorDos{
+    background-color: #F55353;
+}
+
+.icono{
+    color: #FFD36E;
+}
+
+.colorFooter{
+    background-color: #203239;
+}
+
+.colorText{
+    color: #064635;
+}
+
+.colorButt{
+    background-color: #FF5677;
+}
+
+.titulillo{
+    color: #00FFC6;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/estilos.css">
+    <script src="https://kit.fontawesome.com/6986e3ea2e.js" crossorigin="anonymous"></script>
+    <title>Desafío Final</title>
+</head>
+<body>
+    <header class="container-fluid fixed-top bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">           
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#"><h3 class="text-info">Alejandra Serrano</h3></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#Porta">Mi Portafolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#curri">Mi CV</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#contact">Ayuda</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>    
+        </div>      
+    </header>
+
+    <section class="colorCaja" id="Porta">
+        <div class="box  colorText align-items-center col-12 mt-3 py-5">
+            <div class=" miColor d-flex justify-content-center">
+                <h1 class="pt-3">Mi Portafolio</h1>
+            </div>
+            <div class="container d-flex justify-content-end mt-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Contacto
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog ">
+                    <div class="modal-content bg-dark">
+                        <div class="modal-header">
+                        <h5 class="modal-title titulillo" id="staticBackdropLabel">Mis Datos de Contacto</h5>
+                        <button type="button" class="btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <span class="text-white">Nombre:</span> <b class="text-warning">Alejandra Serrano</b> <br>
+                        <span class="text-white">Celular:</span> <b class="text-warning">+56 9 87542136.</b> <br>
+                        <span class="text-white">e-mail:</span><b class="text-warning">mujerskater@gmail.com</b>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger colorButt" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid py-5" ></div>
+            <div class="container d-flex justify-content-evenly">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 ms-5 g-4 ps-3 mt-0 mb-5"> <!--Aquí se trabaja la responsividad con row-cols-sm, md, lg y xl-->
+                    <div class="col">
+                        <div class="card tarjeta bg-black">
+                            <img src="/assets/img/desafio1.png" class="card-img-top" alt="Imagen con un plato de comida vegetariana">
+                            <div class="card-body">
+                                <h5 class="card-title titulo text-info">Desafio 1 - Mi Curriculum Vitae HTML</h5>
+                                <hr class="text-white">
+                                <div class="d-flex justify-content-end">
+                                    <button type="button" class="btn btn-outline-danger"><a class="boton text-white" href="https://github.com/nanamood/desafio-1" target="_blank">Repositorio <i class="fa-brands fa-github"></i></a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card tarjeta bg-black">
+                            <img src="/assets/img/desafio2.png" class="card-img-top" alt="Imagen con un plato de comida vegetariana">
+                            <div class="card-body">
+                                <h5 class="card-title titulo text-info">Desafío 2 - Construyendo landing page</h5>
+                                <hr class="text-white">
+                                <div class="d-flex justify-content-end">
+                                    <button type="button" class="btn btn-outline-danger"><a class="boton text-white" href="https://github.com/nanamood/desafio-2" target="_blank">Repositorio <i class="fa-brands fa-github"></i></a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card tarjeta bg-black">
+                            <img src="/assets/img/desafio3.png" class="card-img-top" alt="Imagen con un plato de comida vegetariana">
+                            <div class="card-body">
+                                <h5 class="card-title titulo text-info">Desafío 3 - Iguana page</h5>
+                                <hr class="text-warning">
+                                <div class="d-flex justify-content-end">
+                                    <button type="button" class="btn btn-outline-danger"><a class="boton text-white" href="https://github.com/nanamood/Desafio-3" target="_blank">Repositorio <i class="fa-brands fa-github"></i></a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                        
+                    <div class="col">
+                        <div class="card tarjeta bg-black">
+                            <img src="/assets/img/desafio4.png" class="card-img-top" alt="Imagen con un plato de comida vegetariana">
+                            <div class="card-body">
+                                <h5 class="card-title titulo text-info">Desafío 4 - Cuppon</h5>
+                                <hr class="text-white">
+                                <div class="d-flex justify-content-end">
+                                    <button type="button" class="btn btn-outline-danger"><a class="boton text-white" href="https://github.com/nanamood/Desafio-4" target="_blank">Repositorio <i class="fa-brands fa-github"></i></a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="col">
+                        <div class="card tarjeta bg-black">
+                            <img src="/assets/img/desafio5.png" class="card-img-top" alt="Imagen con un plato de comida vegetariana">
+                                <div class="card-body">
+                                    <h5 class="card-title titulo text-info">Desafío 5 - Github</h5>
+                                    <hr class="text-white">
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button" class="btn btn-outline-danger"><a class="boton text-white" href="https://github.com/nanamood/fdsw-github" target="_blank">Repositorio <i class="fa-brands fa-github"></i></a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>  
+             
+        </div>    
+    </section>
+
+    <section class="colorCaja" id="curri">
+        <div class="box miColor colorText d-flex justify-content-center align-items-center col-12 py-3">
+            <h1 class="pt-3">Mi Experiencia</h1>
+        </div>
+        <div class="container-fluid pt-5" ></div>
+            <div class="container d-flex justify-content-evenly pb-5">
+                <div class="card mb-6 colorCard" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-3 d-flex justify-content-around align-items-center colorDos">
+                            <div class="">
+                                <i class="icono fa-solid fa-briefcase fa-5x"></i>
+                            </div>
+
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body">
+                            <h5 class="card-title">Empresa 1</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi a omnis accusantium neque vero! Facilis quas at libero maxime, <br> id aliquam deleniti obcaecati incidunt aperiam fuga qui illo, sed voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, aperiam accusantium! Officia quisquam omnis recusandae temporibus quod pariatur quis quas. Quo adipisci minima quisquam fugit exercitationem itaque odit inventore debitis.
+                                 
+                            </p>
+                            <p class="card-text"><small class="text-muted">Periodo: Marzo 2019 - Junio 2020</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-6 colorCard" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-3 d-flex justify-content-around align-items-center colorDos">
+                            <i class="icono fa-solid fa-desktop fa-5x"></i>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body">
+                            <h5 class="card-title">Empresa 2</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum est placeat excepturi optio magnam, illum pariatur architecto aliquid distinctio voluptas laborum reprehenderit illo, quidem dolor facilis modi expedita reiciendis nihil? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis nobis debitis. Eaque deserunt eum exercitationem dolores iste quisquam nesciunt nobis est, illum ea corporis modi totam, omnis aut aliquam.
+                                nihil? Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            </p>
+                            <p class="card-text"><small class="text-muted">Periodo</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <footer class="container-fluid colorFooter py-3">
+        <div class="container">
+                <div class="col-sm-12 col-md-12 d-flex justify-content-center align-items-center">
+                    <p class="text-white"><b class="text-info">Alejandra Serrano</b><b class="text-white"> ©2022</b>. Todos los derechos reservados.</p>
+                </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
